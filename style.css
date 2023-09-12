@@ -416,7 +416,7 @@ footer p {
   #header {
     display: flex;
     align-items: center;
-    padding: 16px 0 10px 16px;
+    padding: 24px 0 10px 16px;
   }
   #header a {
     text-align: center;
@@ -484,6 +484,7 @@ footer p {
   #header {
     display: flex;
     align-items: center;
+    padding: 24px 0 10px 16px;
   }
 
   #header a {
@@ -528,5 +529,21 @@ footer p {
 
   footer .footer-text h1 {
     font-size: 2em;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #header {
+    display: flex;
+    align-items: center;
+    padding: 24px 0 10px 16px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  #header {
+    display: flex;
+    align-items: center;
+    padding: 24px 0 10px 16px;
   }
 }
