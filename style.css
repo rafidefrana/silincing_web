@@ -56,6 +56,7 @@ iframe {
   align-items: center;
   justify-content: space-between;
   padding: 16px 128px;
+
   position: sticky;
   top: 0;
   background-color: rgba(0, 0, 0, 0.1);
@@ -544,6 +545,6 @@ footer p {
   #header {
     display: flex;
     align-items: center;
-    padding: 24px 0 10px 16px;
+    padding: 18px 18px 20px 20px;
   }
 }
